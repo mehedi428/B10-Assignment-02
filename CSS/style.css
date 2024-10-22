@@ -91,6 +91,10 @@ nav li a {
     font-weight: 900;
 }
 
+.button {
+    display: flex;
+}
+
 .banner .text-section button {
     margin-top: 20px;
     margin-right: 20px;
@@ -431,6 +435,54 @@ th {
 }
 
 
+footer {
+    padding: 50px 150px;
+    background: rgba(255, 255, 255, 0.1);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-content h1, h3 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.footer-content p {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-content a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem; margin-top: 30px;
+}
+
+#icon {
+    color: rgb(230, 83, 60);
+}
+
+
+
+
 
 
 
@@ -526,6 +578,15 @@ th {
 
     .card-box {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
     }
 
 
