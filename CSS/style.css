@@ -80,6 +80,11 @@ nav li a {
     justify-content: space-between;
 }
 
+#banner-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
 .banner .text-section h3 {
     color: rgb(255, 255, 255);
     font-size: 4rem;
@@ -226,10 +231,11 @@ nav li a {
 
 .section-2 p {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 .section-2 .run {
-    max-width: 400px;
+    max-width: 450px;
     height: 300px;
 }
 
@@ -336,7 +342,6 @@ th {
 .section-4 .trainer-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
     gap: 20px;
     border-radius: 18px;
     padding: 20px;
@@ -367,6 +372,64 @@ th {
     
 
 }
+
+
+
+/* section-5 */
+.section-5 {
+    max-width: 1140px;
+    margin: 70px auto;
+}
+ 
+.section-5 h1 {
+    text-align: center;
+}
+
+.section-5 p {
+    text-align: center;
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    
+    border-radius: 16px;
+    padding: 10px;
+    background: rgb(40, 3, 75);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin-top: 24px;
+}
+
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.card button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none; 
+    
+}
+
 
 
 
@@ -454,6 +517,14 @@ th {
     }
 
     .input-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-4 .trainer-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-box {
         grid-template-columns: repeat(1, 1fr);
     }
 
